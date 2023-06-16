@@ -61,4 +61,4 @@ def generate_chapters(transcript_path):
         return []
 
 
-generate_chapters("transcription.txt")
+print(generate_chapters("transcription.txt"))
